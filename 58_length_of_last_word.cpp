@@ -10,7 +10,7 @@ public:
                 count++;
             } else if (count > 0) {
                 // If a space is encountered after the last word, break the loop
-                break;
+                return count;
             }
         }
 
