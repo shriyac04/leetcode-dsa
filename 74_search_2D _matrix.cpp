@@ -16,3 +16,14 @@ public:
         return false ;
     }
 };
+
+APPROACH-2:
+............same 
+    
+        for(const auto &i:matrix){
+if(find(i.begin(),i.end(),target)!=i.end())
+return true;
+        }
+        return false;
+        }
+    
